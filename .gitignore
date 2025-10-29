@@ -1,0 +1,34 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# PyCharm IDE
+.idea/
+*.iml
+
+# Data files (user uploads)
+*.xlsx
+*.xls
+*.csv
+data/*.xlsx
+data/*.xls
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
