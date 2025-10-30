@@ -103,8 +103,6 @@ def validate_excel_file(uploaded_file, sheet_name=None):
             )
 
         # All checks passed!
-        print(info_message)  # Log which sheet was used
-        print(f"✅ Validation passed: {len(df)} rows, {len(df.columns)} columns")
         return (True, None, df)
 
     except Exception as e:
